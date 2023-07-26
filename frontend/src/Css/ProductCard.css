@@ -1,0 +1,9 @@
+.cards {
+    max-width: 345px;
+    transform: none;
+    transition: transform 0.3s;
+  }
+
+.cards:focus {
+    transform: scale(2,3);
+}
